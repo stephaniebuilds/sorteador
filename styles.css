@@ -75,17 +75,53 @@ button:active {
 }
 
 @media (max-width: 800px) {
-    
-    .input-min {
-        margin-right: 0;
+
+    body {
+        padding: 10px;
     }
 
-    h1 {
-        font-size: 32px; 
+
+    img {
+        max-width: 150px;
         margin-top: 20px;
     }
 
+    h1 {
+        font-size: 32px;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+
     h2 {
-        margin-top: 40px;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    div {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+        max-width: 280px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 280px;
+        height: 60px;
+        font-size: 24px;
+        margin-top: 25px;
+    }
+
+    .result-value {
+        font-size: 50px;
+        margin-top: 20px;
     }
 }
