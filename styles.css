@@ -80,6 +80,11 @@ button:active {
         margin-right: 0;
     }
 
+    h1 {
+        font-size: 32px; 
+        margin-top: 20px;
+    }
+
     h2 {
         margin-top: 40px;
     }
